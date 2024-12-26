@@ -16,9 +16,15 @@ export const About = () => {
           <div className="space-y-6 text-white">
             <h2 className="text-4xl font-bold">About Me</h2>
             <p className="text-lg text-gray-300">
+<<<<<<< HEAD
                 I’m Shivanshu Kashyap, an IT undergraduate at RGIPT with expertise in the MERN stack, AI, and web development.
                 I’ve built impactful projects like Safemine and Castify and ranked in the top 2% of IIT JEE (Advanced) 2022. 
                  Passionate about creating scalable tech solutions, I also serve as a Teaching Assistant (GYANARPAN | RGIPT) and a Reliance UG Scholar.
+=======
+              I'm a passionate IT professional with a strong foundation in software development
+              and a keen interest in innovative technologies. My journey in tech has equipped me
+              with diverse skills and a problem-solving mindset.
+>>>>>>> 7f1fc66d43c12d180c3b3c78b7912ad5d7b53544
             </p>
             
             <div className="space-y-4">

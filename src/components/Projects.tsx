@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 
+=======
+import React from 'react';
+>>>>>>> 7f1fc66d43c12d180c3b3c78b7912ad5d7b53544
 import { motion } from 'framer-motion';
 import { Github, ExternalLink } from 'lucide-react';
 import { projectsData } from '../data/projects';

@@ -3,7 +3,10 @@ import { Download } from 'lucide-react';
 import { HeroBackground } from './3D/HeroBackground';
 import { useState } from 'react';
 import Logo from '../assets/PortfolioLogo.png'; // Importing the logo
+<<<<<<< HEAD
 import Shivanshu from '../assets/Shivanshu_Kashyap_CV.pdf'
+=======
+>>>>>>> 7f1fc66d43c12d180c3b3c78b7912ad5d7b53544
 
 export const Hero = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -77,10 +80,17 @@ export const Hero = () => {
             className="text-center text-white"
           >
             <h1 className="text-6xl font-bold mb-4">Shivanshu Kashyap</h1>
+<<<<<<< HEAD
             <h2 className="text-2xl mb-8">B.Tech in IT | Web Developer</h2>
 
             <a
               href={Shivanshu}
+=======
+            <h2 className="text-2xl mb-8">B.Tech in IT | Developer | Innovator</h2>
+
+            <a
+              href="/path-to-your-cv.pdf"
+>>>>>>> 7f1fc66d43c12d180c3b3c78b7912ad5d7b53544
               className="inline-flex items-center px-6 py-3 bg-white text-black rounded-full hover:bg-opacity-90 transition-colors"
             >
               <Download className="w-5 h-5 mr-2" />
