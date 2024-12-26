@@ -1,11 +1,14 @@
+import Safemine from '../assets/Safemine.png';
+import Portfolio from '../assets/Portfolio.png';
+
 export const projectsData = [
   {
     title: 'Safemine',
-    description: 'A comprehensive mining safety solution',
-    image: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&q=80',
-    tech: ['React', 'Node.js', 'MongoDB'],
+    description: 'EMPOWERING SAFETY, ENSURING PRODUCTIVITY',
+    image: Safemine, // Corrected here
+    tech: ['React', 'Node.js', 'MongoDB', 'Express.js', 'Cloudinary', 'Tailwind'],
     links: {
-      github: '#',
+      github: 'https://github.com/Shivanshu-Kashyap/safemine',
       live: '#'
     }
   },
@@ -20,22 +23,22 @@ export const projectsData = [
     }
   },
   {
-    title: 'Food Recognition',
-    description: 'AI-powered food detection system',
+    title: 'Food Recognition and Calorie Estimation',
+    description: 'Food detection & Calorie estimation system',
     image: 'https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&q=80',
-    tech: ['Python', 'TensorFlow', 'OpenCV'],
+    tech: ['Python', 'TensorFlow', 'Keras', 'BeautifulSoup', 'Gradio', 'Google-Colab'],
     links: {
-      github: '#',
+      github: 'https://github.com/Shivanshu-Kashyap/Food-Recognition-and-Calorie-Estimation-',
       live: '#'
     }
   },
   {
-    title: 'EstateEdge',
-    description: 'Real estate management platform',
-    image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80',
-    tech: ['React', 'Node.js', 'PostgreSQL'],
+    title: 'Portfolio',
+    description: 'A comprehensive personal portfolio that highlights my skills, education, projects, and achievements.',
+    image: Portfolio, // Corrected here
+    tech: ['Typescript', 'React', '3js'],
     links: {
-      github: '#',
+      github: 'https://github.com/Shivanshu-Kashyap/PORTFOLIO',
       live: '#'
     }
   }
