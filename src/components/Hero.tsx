@@ -3,7 +3,7 @@ import { Download } from 'lucide-react';
 import { HeroBackground } from './3D/HeroBackground';
 import { useState } from 'react';
 import Logo from '../assets/PortfolioLogo.png'; // Importing the logo
-import Shivanshu from '../assets/Shivanshu_Kashyap_CV.pdf'
+import Shivanshu from '../assets/Shivanshu_Kashyap_CV.pdf';
 
 export const Hero = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,7 +16,7 @@ export const Hero = () => {
 
           {/* Logo Image */}
           <div className="text-white text-2xl font-bold">
-            <img src={Logo} alt="Portfolio Logo" className="h-12" /> {/* Use your logo image */}
+            <img src={Logo} alt="Portfolio Logo" className="h-12" />
           </div>
 
           {/* Hamburger Menu for Mobile */}
@@ -74,7 +74,7 @@ export const Hero = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-center text-white"
+            className="text-center text-white py-20" // Added padding for spacing
           >
             <h1 className="text-6xl font-bold mb-4">Shivanshu Kashyap</h1>
             <h2 className="text-2xl mb-8">B.Tech in IT | Web Developer</h2>
